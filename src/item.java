@@ -4,12 +4,18 @@ public class item {
     private String name;
 
     public item(String a, double b, String c) {
-        category = a;
+        name = a;
         price = b;
-        name = c;
+        category = c;
+    }
+
+    public void setPrice(double n) {
+        price = n;
     }
 
     public String getCategory() {return category;}
     public double getPrice() {return price;}
     public String getName() {return name;}
+
+    public String toString() {return String.format("\t\t%s\t\t\t$%.2f\t\t\t%s", name, price, category);}
 }
