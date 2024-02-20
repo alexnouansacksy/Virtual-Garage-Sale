@@ -2,7 +2,6 @@
 // Virtual Garage Sale
 // 2/19/2024
 
-import java.lang.reflect.Array;
 import java.util.*;
 import static java.lang.System.out;
 
